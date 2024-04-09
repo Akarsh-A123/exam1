@@ -1,0 +1,265 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Noto Sans", sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height:90vh;
+    background-image: url('https://img.freepik.com/free-photo/travel-concept-with-landmarks_23-2149153256.jpg');
+    background-size: cover;
+}
+ul li{
+    display: inline;
+    margin-right: 30px;
+    font-size: 20px;
+    color: white;
+}
+ul{
+    margin-top: 40px;
+    margin-right: 20px;
+}
+.navbar h1{
+    font-size: 40px;
+    color: orange;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.navbar span{
+    color: black;
+    font-size: 20px;
+}
+.link{
+    background-color: green;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    position: relative;
+    left:45%;
+    bottom:200px;
+    color: aliceblue;
+}
+.packages{
+    height: 100vh;
+    padding-left: 150px;
+    padding-right: 50px;
+}
+.packages h1{
+        text-align: center;
+        margin-bottom: 40px;
+}
+.card{
+    display: flex;
+    width:90%;
+}
+.cards img{
+    width: 100%;
+    padding:10px;
+    height: 250px;
+}
+.card{
+    text-align: center;
+}
+.cards{
+    padding: 2%;
+    border: 1px solid rgb(219, 217, 217);
+    padding-bottom: 50px;
+}
+.cards p{
+    text-align: justify;
+    padding: 30px;
+    margin-bottom: 0px;
+}
+.link2{
+    text-decoration: none;
+    background-color:rgb(57, 175, 214);
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.cards span{
+    color: red;
+}
+.link3{
+    background-color: rgb(0, 19, 128);
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: aliceblue;
+    border-radius: 50px;
+}
+.btn2{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.next2{
+    padding: 10px;
+    background-color: rgb(236, 230, 230);
+}
+.next2 img{
+    width: 100%;
+    height: 300px;
+}
+.hd{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.next2 span{
+    font-size: 50px;
+    font-weight: 800;
+    color: rgb(0, 255, 13);
+    position: relative;
+    bottom :200px;
+    left:40%;
+}
+.vedio{
+    position: relative;
+    left:10%;
+    bottom:30px;
+    display: flex;
+}
+.vedio img{
+    width:50%;
+    margin-left: 50px;
+}
+.card1{
+    display: flex;
+    position: relative;
+    left:20%;
+}
+.north h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.cards1{
+    border: 1px solid rgb(128, 125, 125);
+    padding: 20px;
+    border-radius: 30px;
+    margin-left: 40px;
+}
+.cards1 img{
+        width:200px;
+        height: 250px;
+        border-radius: 30px;
+}
+.coustumer {
+        text-align: center;
+        margin-top: 30px;
+        background-color: rgba(224, 222, 222, 0.514);
+        padding: 30px;
+}
+.coustumer h2{
+    font-family: "Style Script", cursive;
+    font-size: 30px;
+}
+.card2{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 200px;
+    padding:0px 100px 0px 100px;
+}
+.cards2 img{
+    width: 100%;
+    height:200px;
+}
+.cards2 {
+    text-align: center;
+    margin-right: 200px;
+    width: 350px;
+}
+.cards2 p{
+    text-align: justify;
+    margin-top: 20px;
+}
+.premium{
+    width:90%;
+    margin-left: 5%;
+    margin-top: 30px;
+    text-align: center;
+}
+.premium h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.premium span{
+    color: red;
+    font-family: "Style Script", cursive;
+    font-size: 30px;
+}
+.card3{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 50px;
+    margin-top: 20px;
+}
+.cards3 img{
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+.cards3{
+    border: 1px solid gray;
+    border-radius: 50px;
+    width: 300px;
+    padding: 20px;
+    background-color: rgba(230, 243, 245, 0.473);
+}
+.aboutcolm{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    position: relative;
+    left: 10%;
+}
+.about{
+    background-color: rgb(5, 5, 44);
+    color: white;
+    padding:0px 10% 0px 10%;
+    font-size: 20px;
+    height: 40vh;
+}
+.about2{
+    margin-top: 30px;
+}
+.about2 img{
+    width: 300px;
+    height: 200px;
+}
+.about h3{
+    color: orange;
+}
+.icons i{
+    font-size: 30px;
+    margin-right: 40px;
+}
+.icons{
+    margin-top: 30px;
+    margin-left: -40px;
+}
+.about2 span{
+    display: flex;
+    margin-bottom: 10px;
+}
+#end{
+    position: relative;
+    left:40%;
+    top:20px
+}
+.link4{
+    color:black;
+    font-size: 15px;
+    font-weight: 0px;
+    text-decoration: none;
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 80px;
+}
